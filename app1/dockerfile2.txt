@@ -1,4 +1,4 @@
-
+# another docker file
 FROM python:3.7-stretch
 
 # install build utilities
@@ -10,7 +10,7 @@ RUN python3 --version
 RUN pip3 --version
 
 # set the working directory for containers
-WORKDIR  /usr/src/<app-name>
+WORKDIR  /usr/src/app1
 
 # Installing python dependencies
 COPY requirements.txt .
