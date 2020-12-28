@@ -1,4 +1,4 @@
-# some simple keras tinkering
+# testing the container
 
 import numpy as np
 import tensorflow as tf
