@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
 	python3-opencv && \
     rm -rf /var/lib/apt/lists/*
 
+
 RUN pip3 install tensorflow && \
     pip3 install numpy pandas sklearn matplotlib seaborn jupyter pyyaml h5py && \
     pip3 install keras --no-deps && \
