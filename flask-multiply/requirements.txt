@@ -1,2 +1,3 @@
 # put some requirements here
-Flask==1.0
+Flask==1.1
+Numpy==1.14
